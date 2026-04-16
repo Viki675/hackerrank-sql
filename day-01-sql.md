@@ -4,7 +4,7 @@
 
 ---
 ```
-### 1. Select All
+### 1. Revising the Select Query II
 '''sql
 SELECT NAME FROM CITY
 WHERE CountryCode = 'USA'
