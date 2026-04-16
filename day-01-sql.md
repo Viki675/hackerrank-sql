@@ -1,11 +1,11 @@
 # Day 1 - HackerRank SQL
 
-## ✅ Problems Solved: 05
+## Problems Solved: 05
 
 ---
 
 ### 1. Select All
-```sql
+'''sql
 SELECT NAME FROM CITY
 WHERE CountryCode = 'USA'
 AND POPULATION > 120000;
