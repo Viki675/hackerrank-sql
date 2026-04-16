@@ -3,7 +3,7 @@
 ## Problems Solved: 05
 
 ---
-
+```
 ### 1. Select All
 '''sql
 SELECT NAME FROM CITY
