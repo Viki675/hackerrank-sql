@@ -37,7 +37,7 @@ SELECT CITY, STATE FROM STATION;
 
 
 
-### 5. Weather Observation Station 5
+### 5. Weather Observation Station 3
 '''sql
 SELECT DISTINCT CITY FROM STATION
 WHERE ID % 2 = 0;
