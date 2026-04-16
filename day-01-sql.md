@@ -1,6 +1,6 @@
 # Day 1 - HackerRank SQL
 
-## Problems Solved: 05
+## Problems Solved: 06
 
 ---
 ```
@@ -24,20 +24,20 @@ WHERE COUNTRYCODE = 'JPN'
 
 
 
-### 3. Japanese Cities' Attribute
+### 4. Japanese Cities' Attribute
 '''sql
 SELECT * FROM CITY
 WHERE COUNTRYCODE = 'JPN';
 
 
 
-### 4. Weather Observation Station 1
+### 5. Weather Observation Station 1
 '''sql
 SELECT CITY, STATE FROM STATION;
 
 
 
-### 5. Weather Observation Station 3
+### 6. Weather Observation Station 3
 '''sql
 SELECT DISTINCT CITY FROM STATION
 WHERE ID % 2 = 0;
