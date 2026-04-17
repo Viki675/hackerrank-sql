@@ -1,0 +1,109 @@
+# Day 3 - HackerRank SQL
+
+## Problems Solved: 06
+
+---
+```
+### 1. Weather Observation Station 7
+'''sql
+SSELECT DISTINCT CITY
+FROM STATION
+WHERE CITY LIKE '%a'
+    OR CITY LIKE '%e'
+    OR CITY LIKE '%i'
+    OR CITY LIKE '%o'
+    OR CITY LIKE '%u';
+
+### 2. Weather Observation Station 8
+'''sql
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY LIKE 'A%a'
+    OR CITY LIKE 'A%e'
+    OR CITY LIKE 'A%i'
+    OR CITY LIKE 'A%o'
+    OR CITY LIKE 'A%u'
+    OR CITY LIKE 'E%a'
+    OR CITY LIKE 'E%e'
+    OR CITY LIKE 'E%i'
+    OR CITY LIKE 'E%o'
+    OR CITY LIKE 'E%u'
+    OR CITY LIKE 'I%a'
+    OR CITY LIKE 'I%e'
+    OR CITY LIKE 'I%i'
+    OR CITY LIKE 'I%o'
+    OR CITY LIKE 'I%u'
+    OR CITY LIKE 'O%a'
+    OR CITY LIKE 'O%e'
+    OR CITY LIKE 'O%i'
+    OR CITY LIKE 'O%o'
+    OR CITY LIKE 'O%u'
+    OR CITY LIKE 'U%a'
+    OR CITY LIKE 'U%e'
+    OR CITY LIKE 'U%i'
+    OR CITY LIKE 'U%o'
+    OR CITY LIKE 'U%u';
+### 3. Weather Observation Station 9
+'''sql
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT LIKE 'A%'
+    AND CITY NOT LIKE 'E%'
+    AND CITY NOT LIKE 'I%'
+    AND CITY NOT LIKE 'O%'
+    AND CITY NOT LIKE 'U%';
+
+### 4. Weather Observation Station 10
+'''sql
+SELECT DISTINCT CITY 
+FROM STATION
+WHERE CITY NOT LIKE '%A'
+    AND CITY NOT LIKE '%E'
+    AND CITY NOT LIKE '%I'
+    AND CITY NOT LIKE '%O'
+    AND CITY NOT LIKE '%U';
+
+### 5. Weather Observation Station 11
+'''sql
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT LIKE 'A%A'
+    AND CITY NOT LIKE 'A%E'
+    AND CITY NOT LIKE 'A%I'
+    AND CITY NOT LIKE 'A%O'
+    AND CITY NOT LIKE 'A%U'
+    AND CITY NOT LIKE 'E%A'
+    AND CITY NOT LIKE 'E%E'
+    AND CITY NOT LIKE 'E%I'
+    AND CITY NOT LIKE 'E%O'
+    AND CITY NOT LIKE 'E%U'
+    AND CITY NOT LIKE 'I%A'
+    AND CITY NOT LIKE 'I%E'
+    AND CITY NOT LIKE 'I%I'
+    AND CITY NOT LIKE 'I%O'
+    AND CITY NOT LIKE 'I%U'
+    AND CITY NOT LIKE 'O%A'
+    AND CITY NOT LIKE 'O%E'
+    AND CITY NOT LIKE 'O%I'
+    AND CITY NOT LIKE 'O%O'
+    AND CITY NOT LIKE 'O%U'
+    AND CITY NOT LIKE 'U%A'
+    AND CITY NOT LIKE 'U%E'
+    AND CITY NOT LIKE 'U%I'
+    AND CITY NOT LIKE 'U%O'
+    AND CITY NOT LIKE 'U%U';
+
+### 6. Weather Observation Station 12
+'''sql
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT LIKE 'A%'
+    AND CITY NOT LIKE 'E%'
+    AND CITY NOT LIKE 'I%'
+    AND CITY NOT LIKE 'O%'
+    AND CITY NOT LIKE 'U%'
+    AND CITY NOT LIKE '%A'
+    AND CITY NOT LIKE '%E'
+    AND CITY NOT LIKE '%I'
+    AND CITY NOT LIKE '%O'
+    AND CITY NOT LIKE '%U';
